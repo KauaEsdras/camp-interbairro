@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição da Equipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img id="logo-interbairro-de-games" src="./image/novo.jpg" alt="logo-interbairro-de-games">
+        <h1>Formulário de Inscrição da Equipe</h1>
+
+        <!-- Seção para informações do líder da equipe -->
+        <section class="leader-info">
+            <h2>Informações do Líder da Equipe</h2>
+            <form action="https://api.sheetmonkey.io/form/fLE94kWq5BkYiVbrUcTuYc" method="POST">
+                <div class="form-group">
+                    <label for="bairro">Bairro representante:</label>
+                    <input type="text" id="bairro" name="bairro" required>
+                </div>
+                <div class="form-group">
+                    <label for="contato">Número do Contato do Representante:</label>
+                    <input type="text" id="contato" name="contato" required>
+                </div>
+                <div class="form-group">
+                    <label for="nome-equipe">Nome da Equipe:</label>
+                    <input type="text" id="nome-equipe" name="nome-equipe" required>
+                </div>
+                <div>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                </div>
+            </form>
+        </section>
+
+        <!-- Seção para informações dos jogadores -->
+        <section class="players-info">
+            <h2>Informações dos Jogadores</h2>
+            <form action="https://api.sheetmonkey.io/form/fLE94kWq5BkYiVbrUcTuYc" method="POST">
+                <div class="player">
+                    <h3>Jogador 1</h3>
+                    <div class="form-group">
+                        <label for="nome1">Nome:</label>
+                        <input type="text" id="nome1" name="nome1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="idade1">Idade:</label>
+                        <input type="number" id="idade1" name="idade1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname1">Nickname:</label>
+                        <input type="text" id="nickname1" name="nickname1" required>
+                    </div>
+                </div>
+                <!-- Repetir para os outros jogadores -->
+                <!-- Jogador 2 -->
+                <div class="player">
+                    <h3>Jogador 2</h3>
+                    <div class="form-group">
+                        <label for="nome2">Nome:</label>
+                        <input type="text" id="nome2" name="nome2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="idade2">Idade:</label>
+                        <input type="number" id="idade2" name="idade2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname2">Nickname:</label>
+                        <input type="text" id="nickname2" name="nickname2" required>
+                    </div>
+                </div>
+
+                <!-- Jogador 3 -->
+                <div class="player">
+                    <h3>Jogador 3</h3>
+                    <div class="form-group">
+                        <label for="nome3">Nome:</label>
+                        <input type="text" id="nome3" name="nome3" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="idade3">Idade:</label>
+                        <input type="number" id="idade3" name="idade3" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname3">Nickname:</label>
+                        <input type="text" id="nickname3" name="nickname3" required>
+                    </div>
+                </div>
+
+                <!-- Jogador 4 -->
+                <div class="player">
+                    <h3>Jogador 4</h3>
+                    <div class="form-group">
+                        <label for="nome4">Nome:</label>
+                        <input type="text" id="nome4" name="nome4" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="idade4">Idade:</label>
+                        <input type="number" id="idade4" name="idade4" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname4">Nickname:</label>
+                        <input type="text" id="nickname4" name="nickname4" required>
+                    </div>
+                </div>
+
+                <!-- Jogador 5 -->
+                <div class="player">
+                    <h3>Jogador 5</h3>
+                    <div class="form-group">
+                        <label for="nome5">Nome:</label>
+                        <input type="text" id="nome5" name="nome5">
+                    </div>
+                    <div class="form-group">
+                        <label for="idade5">Idade:</label>
+                        <input type="number" id="idade5" name="idade5">
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname5">Nickname:</label>
+                        <input type="text" id="nickname5" name="nickname5">
+                    </div>
+                </div>
+
+                <!-- Jogador 6 -->
+                <div class="player">
+                    <h3>Jogador 6</h3>
+                    <div class="form-group">
+                        <label for="nome6">Nome:</label>
+                        <input type="text" id="nome6" name="nome6">
+                    </div>
+                    <div class="form-group">
+                        <label for="idade6">Idade:</label>
+                        <input type="number" id="idade6" name="idade6">
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname6">Nickname:</label>
+                        <input type="text" id="nickname6" name="nickname6">
+                    </div>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
